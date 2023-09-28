@@ -27,7 +27,7 @@ export const createWallet = async () => {
 
     // Set up the Blockchain configuration for regtest
     const blockchainConfig = {
-      url: 'http://127.0.0.1:9050', 
+      url: 'http://127.0.0.1:18445', 
       rpcuser: 'admin',
       rpcpassword: 'password',
     };
