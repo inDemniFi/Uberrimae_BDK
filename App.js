@@ -7,7 +7,7 @@ import BitcoinWalletComponents from './components/BitcoinWalletComponents';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Uberrimae Fidei is Amazing</Text>
+      <BitcoinWalletComponents />
       <StatusBar style="auto" />
     </View>
   );

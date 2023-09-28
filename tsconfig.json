@@ -1,16 +1,19 @@
 {
-    "compilerOptions": {
-      "declaration": true,
-      "esModuleInterop": true,
-      "jsx": "react",
-      "lib": ["ESNext"],
-      "module": "ESNext",
-      "moduleResolution": "Node",
-      "noEmitOnError": false,
-      "outDir": "./lib",
-      "skipLibCheck": true,
-      "sourceMap": true,
-      "strict": true,
-      "target": "ES2018",
-    }
-  }
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": [
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmitOnError": false,
+    "outDir": "./lib",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2018"
+  },
+  "extends": "expo/tsconfig.base"
+}
