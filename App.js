@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import React, { useEffect } from 'react';
-import BitcoinWalletComponents from './components/BitcoinWalletComponents';
+import WalletComponent from './components/WalletComponent';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <BitcoinWalletComponents />
+      <WalletComponent />
       <StatusBar style="auto" />
     </View>
   );
