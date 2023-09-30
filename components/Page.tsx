@@ -1,4 +1,3 @@
-// WalletComponent.js
 import React, {Fragment, useEffect, useState} from 'react';
 import {View, Text, Image, Alert, ActivityIndicator} from 'react-native';
 import {createWallet} from '../services/WalletService';
@@ -13,7 +12,7 @@ import {MMKV} from 'react-native-mmkv';
 
 export const storage = new MMKV();
 
-const WalletComponent = () => {
+const Page = () => {
   const [wallet, setWallet] = useState<Wallet>();
   const [mnemonic, setMnemonic] = useState<string>('');
   const [address, setAddress] = useState<string>();
@@ -104,4 +103,4 @@ const WalletComponent = () => {
   );
 };
 
-export default WalletComponent;
+export default Page;

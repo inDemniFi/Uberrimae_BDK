@@ -1,11 +1,11 @@
 import {StyleSheet, View} from 'react-native';
 import React from 'react';
-import WalletComponent from './components/WalletComponent';
+import Page from './components/Page';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <WalletComponent />
+      <Page />
     </View>
   );
 }
