@@ -5,6 +5,7 @@ import {createWallet} from '../services/WalletService';
 import AppButton from './buttons/AppButton';
 import { Linking } from 'react-native';
 
+
 // Import the styles
 import {styles} from '../styles/styles';
 import {Wallet} from 'bdk-rn';
@@ -151,7 +152,7 @@ const Page = () => {
                   onPress={() => {
                     // Add logic to handle transaction or swap
                     // Open a website link when the button is pressed
-                    Linking.openURL('https://insuringbitcoin.vercel.app/');
+                    Linking.openURL('https://InsuringBitcoin.vercel.app/');
                   }}
                 />
               </View>
